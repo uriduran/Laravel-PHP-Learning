@@ -12,12 +12,13 @@
                 text-align: center;
             }
         </style>
-
-    
     </head>
     <body>
-
-    <h1>Hello World.</h1>
+    
+    <?php
+        $name = $_GET['name'];
+    ?>
+    <header>Hello, <?php echo $name ?></header>
 
     
     </body>
