@@ -33,6 +33,7 @@
 
             <!--Output the boolean Example-->
             <li>
+                <!--USEFUL: Outputs either 'Complete' or 'Incomplete' based on Boolean value.-->
                 <strong>Status:</strong> <?= $task['completed'] ? 'Complete' : 'Incomplete'; ?>
             </li>
 

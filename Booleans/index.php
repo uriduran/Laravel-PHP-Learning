@@ -4,7 +4,6 @@ $task = [
     'title' => 'Finish homework',
     'due' => 'today',
     'assigned_to' => 'jeffrey',
-    'completed' => false
+    'completed' => true
 ];
-
 require 'view.index.php';
