@@ -14,12 +14,11 @@
         </style>
     </head>
     <body>
+    <header>
     
-    <?php
-        $name = $_GET['name'];
-    ?>
-    <header>Hello, <?php echo $name ?></header>
+     <?php echo "Hello, " . htmlspecialchars($_GET['name']); ?>
 
+    </header>
     
     </body>
 </html>
