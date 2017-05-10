@@ -4,9 +4,17 @@
         <title></title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="css/style.css" rel="stylesheet">
+        
+        <style>
+            header{
+                background: grey;
+            }
+        </style>
+
+    
     </head>
     <body>
+
     <h1>Hello World.</h1>
 
     
