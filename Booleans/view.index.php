@@ -16,12 +16,30 @@
 
                 <li> 
                     <!--ucwords capitalizes first letter.-->
-                    <strong> <?= ucwords($heading); ?> </strong> <?= $value ?>
+                    <strong> <?= ucwords($heading); ?>: </strong> <?= $value ?>
                 </li>
                 
                 <?php endforeach; ?>
 
         </ul>
+
+
+        <!--OTHER EXAMPLE ON HOW TO DO THIS-->
+
+        <ul>
+            <li>
+                <strong>Name: </strong> <?= $task['title'];?>
+            </li>
+
+            <!--Output the boolean Example-->
+            <li>
+                <strong>Status:</strong> <?= $task['completed'] ? 'Complete' : 'Incomplete'; ?>
+            </li>
+
+
+
+        </ul>
+
 
 
     
