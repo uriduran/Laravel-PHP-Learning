@@ -11,7 +11,7 @@
 
 
         <h1>Task for the day.</h1>
-        <<ul>
+        <ul>
             <?php foreach($task as $heading => $value) : ?>
 
                 <li>
