@@ -14,8 +14,9 @@
         <ul>
             <?php foreach($task as $heading => $value) : ?>
 
-                <li>
-                    <strong> <?= $heading; ?> </strong>
+                <li> 
+                    <!--ucwords capitalizes first letter.-->
+                    <strong> <?= ucwords($heading); ?> </strong> <?= $value ?>
                 </li>
                 
                 <?php endforeach; ?>
