@@ -8,6 +8,8 @@
         <style>
             header{
                 background: grey;
+                padding: 2em;
+                text-align: center;
             }
         </style>
 
