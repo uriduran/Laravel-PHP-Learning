@@ -1,16 +1,22 @@
 <?php
 
-//LEARNING ARRAYS
-$names = [
-    'Uriel',
-    'Duran',
-    'Aguilera',
+
+
+$person = [
+    'age' => 31,
+    'hair' => 'brown',
 ];
 
-//foreach function takes in the array ($names) and references "as $name"
-    // foreach ($names as $name){ //Starts a small loop that goes through the array.
-    //     echo $name . ', '; //echoes each item in the array as $name
-    // }
+//Add in value to an Ass array.
+$person['name'] = 'Jefrey';
+
+//Prints out all of the variable, key & value.
+var_dump($person);
+
+unset($person['age']); //removes that key and value from array.
+
+
+// die(); ends code does not execute anything after.
 
 require 'index.view.php';
 
