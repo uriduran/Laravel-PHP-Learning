@@ -15,9 +15,9 @@
     </head>
     <body>
     <header>
-    
-     <?php echo "Hello, " . htmlspecialchars($_GET['name']); ?>
-
+        <h1>
+        <?php echo $greeting; ?>
+        </h1>
     </header>
     
     </body>
