@@ -31,17 +31,27 @@
             <!--Output the boolean Example-->
             <li>
                 <strong>Status:</strong>
+
                     <?php
                         if($task['completed']) {
 
-                            echo 'Complete';
+                            echo '&#9989;';
 
                         }else{
                             echo 'Incomplete';
                         }
                     ?>
+            </li>
+            <li>
 
+                <!--Can Change it to this so that we are not echoing out a bunch of stuff-->
+                <strong>Status:</strong>
+                
+                    <?php if ($task['completed']) : ?>
 
+                        &#9989;
+
+                    <?PHP endif; ?>
 
                 <!--USEFUL: Outputs either 'Complete' or 'Incomplete' based on Boolean value.-->
                 <!--<strong>Status:</strong> <//?= $task['completed'] ? 'Complete' : 'Incomplete'; ?>-->
