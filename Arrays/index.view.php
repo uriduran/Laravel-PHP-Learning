@@ -14,12 +14,21 @@
         </style>
     </head>
     <body>
-    <header>
-        <h1>
- 
- 
-        </h1>
-    </header>
-    
+        <ul>
+            <!--Method One for listing an array. SLOPPY-->
+            <?php 
+                foreach($names as $name){
+                    echo "<li>$name</li>";
+                }
+            ?>
+
+            <!--Method Two Prefered-->
+               <?php foreach($names as $name): ?>
+
+               <li> <?php echo $name; ?> </li>
+
+               <?php endforeach; ?>
+
+        </ul>
     </body>
 </html>
