@@ -1,9 +1,15 @@
 <?php
 
-$task = [
-    'title' => 'Finish homework',
-    'due' => 'today',
-    'assigned_to' => 'jeffrey',
-    'completed' => true
-];
-require 'view.index.php';
+require 'functions.php';
+
+
+
+$animals = ['dog','cat'];
+
+
+dd('hellow world');
+
+
+
+
+
