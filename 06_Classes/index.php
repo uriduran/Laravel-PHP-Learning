@@ -27,7 +27,7 @@ class Task {//An instance of a class is an object.
 }
 
 
-$tasks = [
+$tasks = [ //Creates array of tasks and submits them to Task Class
 
     new Task('Go to the store'),
     new Task('Go to the store2'),
