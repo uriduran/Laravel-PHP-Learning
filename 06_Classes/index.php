@@ -7,7 +7,7 @@ class Task {//An instance of a class is an object.
     public $completed = false;
 
     //method if its inside a class otherwise called a function
-    public function __construct($description) 
+    public function __construct($description) //triggered automatically when "new Task()" is called.
     { 
 
         $this->description = $description;
