@@ -22,8 +22,6 @@ class Task {//An instance of a class is an object.
     {
         return $this->completed;
     }
-
-
 }
 
 
@@ -39,17 +37,11 @@ $tasks[0]->complete();
 
 var_dump($tasks);
 
-
-
 // $task = new Task('Go to the store'); //New task creation
 
 // $task->complete();
 
 // var_dump($task->isComplete()); // check if its complete
-
-
-
-
 require 'view.index.php';
 
 
