@@ -33,7 +33,7 @@ $tasks = [ //Creates array of tasks and submits them to Task Class
 
 ];
 
-$tasks[0]->complete();
+$tasks[1]->complete();
 
 var_dump($tasks);
 
@@ -42,6 +42,7 @@ var_dump($tasks);
 // $task->complete();
 
 // var_dump($task->isComplete()); // check if its complete
+
 require 'view.index.php';
 
 
