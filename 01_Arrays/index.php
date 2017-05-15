@@ -3,7 +3,7 @@
 //LEARNING ARRAYS
 $names = [
     'Uriel',
-    'Duran',
+            'Duran',
     'Aguilera',
 ];
 
@@ -13,5 +13,3 @@ $names = [
     // }
 
 require 'index.view.php';
-
-

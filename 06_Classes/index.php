@@ -1,6 +1,8 @@
 <?php
 
-class Task {//An instance of a class is an object.
+class Task
+{
+//An instance of a class is an object.
 
     //defining properties. Protected cannot be called from outside.
     public $description;
@@ -8,12 +10,12 @@ class Task {//An instance of a class is an object.
 
     //method if its inside a class otherwise called a function
     public function __construct($description) //triggered automatically when "new Task()" is called.
-    { 
+    {
 
         $this->description = $description;
     }
 
-        public function complete()
+    public function complete()
     {
         $this->completed = true;
     }
@@ -25,8 +27,7 @@ class Task {//An instance of a class is an object.
 }
 
 
-$tasks = [ //Creates array of tasks and submits them to Task Class
-
+$tasks =[ //Creates array of tasks and submits them to Task
     new Task('Go to the store'),
     new Task('Go to the store2'),
     new Task('Go to the store3')
@@ -44,9 +45,3 @@ var_dump($tasks);
 // var_dump($task->isComplete()); // check if its complete
 
 require 'view.index.php';
-
-
-
-
-
-
