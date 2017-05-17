@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -12,7 +13,7 @@
                 
                     <?php if ($task->completed) : ?>
                         <strike><?= $task->description; ?></strike>
-                    <?php else: ?>
+                    <?php else : ?>
 
                     <?= $task->description; ?>
 
