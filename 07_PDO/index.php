@@ -6,4 +6,11 @@ try {//use a try catch for error catching.
     die('Could not connect.'); //if connection fails display this.
 }
 
+$statement = $pdo->prepare('select * from todos'); //prepared statement but has not exectuted.
+
+$statement->execute(); //executes SQL statement
+
+
+
+
 require 'index.view.php';
