@@ -1,6 +1,6 @@
 <?php
 
-class Task
+class Task //An instance of a class is an object.
 {
 //An instance of a class is an object.
 
