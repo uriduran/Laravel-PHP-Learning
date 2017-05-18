@@ -3,8 +3,9 @@
 require 'functions.php';
 require 'Task.php';
 
-$pdo = connectToDb; //result from connectToDb function is saved as pdo
+$pdo = connectToDb(); //result from connectToDb function is saved as pdo
 
+$tasks = fetchAllTasks($pdo); //takes result from function above as $pdo, inputs it into fetchAllTasks function
 
 var_dump($tasks);
 
