@@ -2,7 +2,7 @@
 
 class Connection
 {
-    public static function make($config)//depends on config array. Make sure its passed in.
+    public static function make($config)
     {
         try {//use a try catch for error catching.
            
