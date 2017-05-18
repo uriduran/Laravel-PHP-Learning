@@ -8,7 +8,8 @@
 
         <!--It will now fetch from the DB and not from an array-->
         <ul>
-            <?php foreach ($tasks as $task) : ?>
+            <?php foreach ($tasks as $task) :
+?>    <!--Goes through fetched array and defines them as $task-->
 
                 <li>
                 
