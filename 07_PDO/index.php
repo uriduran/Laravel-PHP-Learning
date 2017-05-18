@@ -10,6 +10,8 @@ $statement = $pdo->prepare('select * from todos'); //prepared statement but has 
 
 $statement->execute(); //executes SQL statement
 
+var_dump($statement->fetchAll());
+
 
 
 
