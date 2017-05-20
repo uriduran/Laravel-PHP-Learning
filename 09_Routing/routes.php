@@ -1,8 +1,8 @@
 <?php
 
 $router->define([
-    '' => 'controllers/index.php',
-    'about' => 'controllers/about.php',
-    'about/culture' => 'controllers/about-culture.php',
-    'contact' => 'controllers/contact.php'
+    'LaravelTutorials/09_Routing' => 'controllers/index.php',
+    'LaravelTutorials/09_Routing/about' => 'controllers/about.php',
+    'LaravelTutorials/09_Routing/about/culture' => 'controllers/about-culture.php',
+    'LaravelTutorials/09_Routing/about/contact' => 'controllers/contact.php'
 ]);
