@@ -26,3 +26,6 @@ class Request
         return $_SERVER['REQUEST_METHOD'];
     }
 }
+
+//uri will return uri and method will return the method
+//example: (about, GET)
