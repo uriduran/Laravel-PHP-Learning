@@ -14,6 +14,7 @@
         </style>
     </head>
     <body>
+    <?php echo "test" ?>
         <ul>
             <!--Method One for listing an array. SLOPPY-->
             <?php 

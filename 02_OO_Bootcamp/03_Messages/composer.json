@@ -1,0 +1,9 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Acme\\": "src" //Reference the root namespace then what directory should be associated with that
+            //namespace.
+            //So any in src will be associated with Acme namespace
+        }
+    }
+}
