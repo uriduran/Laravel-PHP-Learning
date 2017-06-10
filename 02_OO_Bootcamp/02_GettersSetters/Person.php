@@ -28,5 +28,6 @@ class Person
 $john = new Person("John");
 $john->setAge(18);
 $john->getAge();
+$john->age = 1;
 var_dump($john);
 var_dump($john->getAge());
