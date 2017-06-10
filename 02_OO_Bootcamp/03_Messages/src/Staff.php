@@ -3,6 +3,8 @@ namespace Acme;
 
 use Acme\Users\Person;
 
+//Specifically say Person class is now within the Acme\Users dir.
+
 class Staff
 {
     protected $members = [];
